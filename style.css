@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+}
+
+.container {
+  width: 360px;
+  background: white;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.tabs button {
+  width: 48%;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.tabs .active {
+  background: #2563eb;
+  color: white;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+}
+
+.tree ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.tree span {
+  cursor: pointer;
+  display: block;
+  padding: 6px;
+}
+
+.tree span.selected {
+  background: #dbeafe;
+  border-radius: 6px;
+}

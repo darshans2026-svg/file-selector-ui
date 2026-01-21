@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>File Selector UI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="tabs">
+      <button id="singleBtn" class="active">Single Select</button>
+      <button id="multiBtn">Multiple Select</button>
+    </div>
+
+    <h2>Single Selection Mode</h2>
+    <p>Select one item at a time. Click on any node to select it.</p>
+
+    <input type="text" id="search" placeholder="Search files and folders..." />
+
+    <ul class="tree" id="tree">
+      <li>
+        <span class="folder">📁 Documents</span>
+        <ul>
+          <li><span class="item">📄 Work</span></li>
+          <li><span class="item">📄 Personal</span></li>
+        </ul>
+      </li>
+      <li>
+        <span class="folder">📁 Downloads</span>
+        <ul>
+          <li><span class="item">📦 Software</span></li>
+          <li><span class="item">🎵 Media</span></li>
+          <li><span class="item">🗜 Archives</span></li>
+        </ul>
+      </li>
+      <li>
+        <span class="folder">📁 Desktop</span>
+        <ul>
+          <li><span class="item">📸 Screenshots</span></li>
+          <li><span class="item">🧾 Temp Files</span></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
